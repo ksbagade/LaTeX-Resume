@@ -1,0 +1,244 @@
+%-------------------------
+% Resume in Latex
+% Original template by : Jake Gutierrez
+% Edited by : Kaveri Bagade
+% Last edited : 3/25/2025
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\raggedright%\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% Ensure that generate pdf is machine readable/ATS parsable:
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    % \usepackage[T1]{fontenc} % this breaks sb2nov
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeCompany}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeJobTitle}[2]{
+  \item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textbf{\textit{\small#3}} & \textbf{\textit{\small#4}} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+%\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny\textbf{-}}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny\textbf{-}}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\fontsize{18 pt}{18 pt}\selectfont Kaveri Bagade} \\ \vspace{8pt}
+    \small
+        \mbox{{\color{black}\footnotesize\faMapMarker*}\hspace*{0.13cm}Royal Oak, MI} ~ $|$
+        \raisebox{-0.1\height}\faPhone\ (408)886-8361 ~ $|$
+        \href{mailto:kaverisbagade@gmail.com} {\raisebox{-0.2\height}\faEnvelope\  {kaverisbagade@gmail.com}} ~ $|$
+        \href{http://www.linkedin.com/in/kaveri-bagade}{\raisebox{-0.2\height}\faLinkedin\ {linkedin.com/in/kaveri-bagade}} ~
+        %\href{https://github.com/ksbagade}{\raisebox{-0.2\height}\faGithub\ {github.com/ksbagade}} ~
+    \vspace{-8pt}
+\end{center}
+
+
+%----------- EDUCATION -----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, Irvine}{June 2020}
+      {Bachelor of Science, Computer Engineering}{}
+  \resumeSubHeadingListEnd
+
+%----------- SKILLS -----------
+% heading ideas: languages, developer tools, technologies/frameworks
+\section{SKILLS}
+ \begin{itemize}[leftmargin=0.0in, label={}]
+    \small{\item{
+     \textbf{Technical}{: Java, SQL, Python, C/C++, Databricks} \\
+     \textbf{Professional}{: Excel, PowerBI, SAFe (Agile) Certified, Linux, Atlassian JIRA, Six Sigma Certified} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{PROFESSIONAL EXPERIENCE}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+            {General Motors}{July 2022 -- Current}
+            {Regulatory Certification and Compliance Data and Operations Engineer}{Milford, MI}
+        \resumeItemListStart
+            \resumeItem{Developed an internal data pipeline in Hive and Databricks to track all certification-relevant data for the millions of vehicles GM manufactures world-wide, pulling from different existing sources, to reduce 3 months of manual work into an automated process that runs within 10 minutes}
+            \resumeItem{Built a custom tool with a complete user interface using Java to generate an eXtensible Language Markup (XML) document for the EPA Off-Cycle Credits report, turning the complex 40-hour, multi-person process into a button click that outputs a file in seconds}
+            \resumeItem{Standardized the process to determine final vehicle state location interdepartmentally across Certification, Sales, Marketing, and Legal}
+            \resumeItem{Fulfilled ad hoc data queries for reports to government agencies (CARB/EPA/NHTSA) and for communication to internal upper management using complex SQL queries in Apache Hive and Spark}
+            \resumeItem{Supported the continuous integration and deployment (CI/CD) of the new IT system by using Java, TestNG, and Selenium to automate functional and end-to-end tests to replace over 3 hours of repetitive manual work required after every weekly deployment and to ensure reliability and quality for current users}
+        \resumeItemListEnd
+        
+        \resumeSubheading
+            {General Motors}{July 2020 -- July 2022}
+            {Track Rotational Program Engineer}{Warren, MI}
+        \resumeItemListStart
+            \resumeItem{\emph{Virtual Reality Software Visualization} - Organized and led presentations demonstrating Primitive, a software visualization tool in virtual 3D space, and integrated GM software into packages for external teams to analyze their program code}
+            \resumeItem{\emph{Google Automotive Services (GAS) Software Integration Engineer} - Tested GAS related issues on test benches and on vehicles for GMC, Buick, and Cadillac infotainment systems and analyzed defect logs to submit bug tickets to the appropriate team}
+            \resumeItem{\emph{Test Bench Development Engineer} - Orchestrated the development of a MY24 Ultra Cruise L233 (Lyriq) component bench, including developing the bill of material (BOM), designing the Visio layout, ordering and tracking parts, and creating wiring documents}
+            \resumeItem{\emph{Feature Functions Engineer} - Performed a detailed analysis of controller software to develop a master list of OBD faults that could cause an increase in emissions for an anticipated CARB requirement}
+      \resumeItemListEnd
+      
+      \resumeSubheading
+        {Edwards Lifesciences}{Summer 2019}
+        {Engineering Intern}{Irvine, CA}
+      \resumeItemListStart
+            \resumeItem{Programmed a Universal Robot robotic arm to perform critical care verification and validation testing and built a remote, ethernet-based Python server to control and communicate with the robotic arm}
+      \resumeItemListEnd
+      
+      \resumeSubheading
+        {Maui Imaging}{Summer 2018}
+        {Computer Engineering Intern}{Sunnyvale, CA}
+        \resumeItemListStart
+            \resumeItem{Integrated remote procedure call (gRPC) messages and open-source widget software libraries (Qt) in a Linux environment using C++ to create a full touchscreen control panel to replace the mechanical one on Maui Imaging’s ultrasound system}
+            \resumeItem{Implemented all current projects into JIRA and proofed and edited documentation for quality systems according to medical device standards}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+
+%------ RELEVANT COURSEWORK -------
+\section{HOBBIES/INTERESTS}
+    \begin{itemize}[leftmargin=0.0in, label={}]
+        \small{\item{
+         Flag Football, Field Hockey, Golf, Sewing, Crocheting, Reading, AI/ML, iOS App Development (Swift)
+        }}
+    \end{itemize}
+
+    %\resumeSubHeadingListStart
+ %       \begin{multicols}{3}
+ %           \begin{itemize}[itemsep=-5pt, parsep=3pt]
+ %               \item\small Flag Football
+ %               \item Field Hockey
+ %               \item Golf
+ %               \item Sewing
+ %               \item Crocheting
+ %               \item Reading
+ %               \item AI/ML
+ %               \item iOS App Development (Swift)
+ %           \end{itemize}
+ %       \end{multicols}
+ %       \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+\end{document}
